@@ -1,0 +1,7 @@
+This database took a Very Long Time to compile, so I thought that I'd share
+it.  django-citytemp is a collection of cities and their local temperature
+data conveniently packaged into a Django app.
+
+If you're not using Django, the data should still be accessible.  Everything
+you need is in the `sql/` directory.  `_structure.sql` has the table
+definitions, and the other two sql files have the data.
