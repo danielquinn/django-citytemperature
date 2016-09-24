@@ -9,7 +9,7 @@ import django_countries.fields
 from django.db import connection, migrations, models
 
 
-def populate_all_the_things():
+def populate_all_the_things(apps, schema_editor):
     """
     This package comes with *a lot* of data, so much that we can't distribute
     it in Django's preferred .json fixutres format as it has been known to
