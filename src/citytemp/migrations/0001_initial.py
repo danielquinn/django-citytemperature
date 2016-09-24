@@ -1,5 +1,6 @@
 from __future__ import unicode_literals
 
+import lzma
 import os
 
 import django.contrib.gis.db.models.fields
